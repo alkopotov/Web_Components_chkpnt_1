@@ -1,5 +1,3 @@
-
-
 const template = document.getElementById('card');
 const target = document.querySelectorAll('.row')[0];
 
