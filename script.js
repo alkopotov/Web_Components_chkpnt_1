@@ -5,7 +5,7 @@ const target = document.querySelectorAll('.row')[0];
 function createCard(template, target, data) {
   const card = template.content.cloneNode(true);
   const cardContent = card.firstElementChild;
-  cardContent.children[0].src = `/images/pic${data.id}.webp`;
+  cardContent.children[0].src = `images/pic${data.id}.webp`;
   cardContent.children[0].alt = data.name;
   cardContent.children[1].children[0].innerText = data.name;
   cardContent.children[1].children[1].innerText = data.company;
